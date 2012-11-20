@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: eric
+Build-Jdk: 1.6.0_37
+Build-Time: 1352224923077
+Implementation-Build: 7603af1e7205aef0b06032179b7042cd5e7ef89b
+Version: 3.3.1
+
