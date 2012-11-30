@@ -62,6 +62,7 @@ Step 6 : Install Sonar in Tomcat
 ----------------------------
 
 	cd sonar
+	git rm -r src/ pom.xml
 	git remote add upstream -m master git://github.com/wenhao/openshift-sonar.git
 	git pull -s recursive -X theirs upstream master
 	git push
