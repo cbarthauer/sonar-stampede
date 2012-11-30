@@ -1,6 +1,0 @@
-<select name="<%= name -%>" id="<%= id -%>">
-<option value=""><%= message('default') -%></option>
-<% property.options.each do |option| %>
-<option value="<%= h option -%>" <%= 'selected' if value && value==option -%>><%= option_name(property, field, option) -%></option>
-<% end %>
-</select>
