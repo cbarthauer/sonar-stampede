@@ -55,6 +55,8 @@ Step 4 : Creating a Tomcat Gear
 Step 5 : Create a database
 ----------------------------
 	Add MySQL cartridge, PHPMyAdmin and create "sonar" database in MySQL.
+	
+	rhc app cartridge add -a sonar -c mysql-5.1
 
 Step 6 : Install Sonar in Tomcat
 ----------------------------
