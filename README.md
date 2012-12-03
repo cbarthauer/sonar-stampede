@@ -62,11 +62,11 @@ Step 6 : Install Sonar in Tomcat
 ----------------------------
 
 	cd sonar
-git remote add upstream -m master git://github.com/wenhao/openshift-sonar.git
-git pull -s recursive -X theirs upstream master
-git rm -r src/ pom.xml
-git commit -am "delete src and pom.xml files."
-git push
+	git remote add upstream -m master git://github.com/wenhao/openshift-sonar.git
+	git pull -s recursive -X theirs upstream master
+	git rm -r src/ pom.xml
+	git commit -am "delete src and pom.xml files."
+	git push
 	That's it, you can now checkout your sonar at:
 
 	http://sonar-#yournamespace.rhcloud.com
